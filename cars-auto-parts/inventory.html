@@ -17,8 +17,8 @@
 <style>
   .lot { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line);
          background: var(--card); margin-bottom: 28px; align-items: stretch; }
-  .lot .ph { overflow: hidden; border-right: 1px solid var(--line); background: #ddd6c8; }
-  .lot .ph img { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 260px; }
+  .lot .ph { overflow: hidden; border-right: 1px solid var(--line); background: #ddd6c8; aspect-ratio: 4 / 3; }
+  .lot .ph img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .lot .bd { padding: clamp(18px, 3vw, 28px); }
   .lot h3 { font-size: 1.5rem; margin: 0 0 4px; }
   .price { font-family: var(--display); font-size: 1.7rem; color: var(--coral); line-height: 1; }
@@ -84,7 +84,7 @@
   <div class="wrap">
     <p class="warn"><b>Before you publish:</b> these three listings are carried over from the existing M.RAIKOU site, and some of their specification figures are sample data that disagrees with the car's own title. Each card below says where. Correct the numbers in <code>tools/build-inventory.py</code> and rebuild; the layout holds whatever the real sheet says.</p>
   <article class="lot" id="bmw-640-xi-gran-turismo">
-    <div class="ph"><img src="https://mraikou.com/wp-content/uploads/2023/08/13-1.jpg" alt="BMW 640 XI" loading="lazy"></div>
+    <div class="ph"><img src="../assets/img/cars/13-1.jpg" alt="BMW 640 XI" width="760" height="478" loading="lazy"></div>
     <div class="bd">
       <span class="lbl">Low miles</span>
       <h3>BMW 640 XI</h3>
@@ -110,7 +110,7 @@
     </div>
   </article>
   <article class="lot" id="mercedes-benz-c300">
-    <div class="ph"><img src="https://mraikou.com/wp-content/uploads/2023/08/10-3.jpg" alt="Mercedes Benz C300" loading="lazy"></div>
+    <div class="ph"><img src="../assets/img/cars/10-3.jpg" alt="Mercedes Benz C300" width="760" height="478" loading="lazy"></div>
     <div class="bd">
       <span class="lbl">Low miles</span>
       <h3>Mercedes Benz C300</h3>
@@ -136,7 +136,7 @@
     </div>
   </article>
   <article class="lot" id="my-sample-listing">
-    <div class="ph"><img src="https://mraikou.com/wp-content/uploads/2023/08/11-2.jpg" alt="Mazda MX-5 Miata" loading="lazy"></div>
+    <div class="ph"><img src="../assets/img/cars/11-2.jpg" alt="Mazda MX-5 Miata" width="760" height="478" loading="lazy"></div>
     <div class="bd">
       <span class="lbl">Low miles</span>
       <h3>Mazda MX-5 Miata</h3>
