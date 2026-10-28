@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car inventory | M.RAIKOU</title>
+<meta name="description" content="Japanese vehicles available for export: photographs, price, mileage and specification for each car, with an enquiry form on every listing.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://mraikou.com/cars-auto-parts/inventory.html">
+<link rel="alternate" hreflang="en" href="https://mraikou.com/cars-auto-parts/inventory.html">
+<link rel="alternate" hreflang="x-default" href="https://mraikou.com/cars-auto-parts/inventory.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Car inventory | M.RAIKOU">
+<meta property="og:description" content="Vehicles available for export from Japan, with photographs and specifications, and an enquiry form on every car.">
+<meta name="theme-color" content="#faf7f1">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .lot { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid var(--line);
+         background: var(--card); margin-bottom: 28px; align-items: stretch; }
+  .lot .ph { overflow: hidden; border-right: 1px solid var(--line); background: #ddd6c8; }
+  .lot .ph img { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 260px; }
+  .lot .bd { padding: clamp(18px, 3vw, 28px); }
+  .lot h3 { font-size: 1.5rem; margin: 0 0 4px; }
+  .price { font-family: var(--display); font-size: 1.7rem; color: var(--coral); line-height: 1; }
+  .badge { display: inline-block; background: var(--coral); color: #fff; font-family: var(--mono); font-size: .64rem;
+           letter-spacing: .12em; text-transform: uppercase; padding: 4px 9px; margin-left: 8px; vertical-align: middle; }
+  .specgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; margin: 16px 0 8px; }
+  .specgrid div { display: flex; justify-content: space-between; gap: 10px; border-bottom: 1px solid var(--line);
+                  padding: 7px 0; font-size: .88rem; }
+  .specgrid b { color: var(--soft); font-weight: 600; }
+  .chip { display: inline-block; border: 1px solid var(--line-2); color: var(--soft); font-size: .76rem;
+          padding: 4px 9px; margin: 0 6px 6px 0; }
+  .note { font-size: .82rem; color: var(--soft); border-left: 2px solid var(--coral); padding-left: 10px; margin: 12px 0 0; }
+  .qform { display: grid; gap: 10px; margin-top: 16px; border-top: 1px solid var(--line); padding-top: 16px; }
+  .qform .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .qform .field { display: grid; gap: 4px; }
+  .qform label { font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); }
+  .qform input, .qform textarea { width: 100%; padding: 10px 11px; border: 1.5px solid var(--line-2); background: #fff; font: inherit; }
+  .qform textarea { min-height: 64px; resize: vertical; }
+  .warn { border: 1px solid #e8c76b; background: #fffaf0; padding: 14px 16px; font-size: .88rem; color: #6d5a1e; margin-bottom: 28px; }
+  @media (max-width: 820px) {
+    .lot { grid-template-columns: 1fr; }
+    .lot .ph { border-right: 0; border-bottom: 1px solid var(--line); }
+    .specgrid { grid-template-columns: 1fr; }
+    .qform .row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr">
+  <div class="wrap hdr-in">
+    <a class="brand" href="../index.html"><svg viewBox="0 0 48 48" aria-hidden="true">
+  <rect x="1" y="1" width="46" height="46" fill="#15110e"/>
+  <path d="M10 35V13h4l6 10 6-10h4v22h-4V20l-6 9-6-9v15z" fill="#faf7f1"/>
+  <circle cx="35" cy="33" r="4" fill="#dc4a25"/>
+</svg><span><b>M.RAIKOU</b><small>Car inventory</small></span></a>
+    <button class="burger" aria-expanded="false" aria-label="Menu">&#9776;</button>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="../index.html#work"><em>01</em>Work in Japan</a><a href="../index.html#language"><em>02</em>Language & STBJ</a><a href="../index.html#cars"><em>03</em>Car export</a><a href="../index.html#trading"><em>04</em>Trading</a><a href="../index.html#approvals"><em>06</em>Approvals</a>
+      <a href="index.html">Cars &amp; parts</a>
+      <a href="inventory.html">Inventory</a>
+      <a class="cta" href="../index.html#apply">Apply</a>
+      <span class="lang"><a href="../index.html">English</a><a href="../ur.html">اردو</a><a href="../ja.html">日本語</a><a href="../ar.html">العربية</a></span>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap" style="padding:clamp(34px,5.5vw,76px) 0 clamp(26px,4vw,52px);">
+    <div class="tagline"><span class="bar"></span><span class="lbl">Car export &middot; inventory</span></div>
+    <h1 class="hero-line">Every car, <span class="a">with its sheet.</span></h1>
+    <p class="hero-sub">Each vehicle below carries its own photograph, price, mileage and specification, and its own enquiry form. Send the form and the car's name goes with it, so the office knows exactly which one you mean.</p>
+    <div class="btn-row">
+      <a class="btn btn-red" href="#cars">See the cars</a>
+      <a class="btn btn-dark" href="https://wa.me/819030629963" rel="noopener">Ask on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="cars">
+  <div class="wrap">
+    <p class="warn"><b>Before you publish:</b> these three listings are carried over from the existing M.RAIKOU site, and some of their specification figures are sample data that disagrees with the car's own title. Each card below says where. Correct the numbers in <code>tools/build-inventory.py</code> and rebuild; the layout holds whatever the real sheet says.</p>
+  <article class="lot" id="bmw-640-xi-gran-turismo">
+    <div class="ph"><img src="https://mraikou.com/wp-content/uploads/2023/08/13-1.jpg" alt="BMW 640 XI" loading="lazy"></div>
+    <div class="bd">
+      <span class="lbl">Low miles</span>
+      <h3>BMW 640 XI</h3>
+      <p class="price">$21,000</p>
+      <div class="specgrid"><div><b>Year</b><span>2022</span></div><div><b>Mileage</b><span>22,590 km</span></div><div><b>Transmission</b><span>Automated manual</span></div><div><b>Drive</b><span>Front wheel drive</span></div><div><b>Engine</b><span>4 cylinder, 2.4 L</span></div><div><b>Seats</b><span>6</span></div><div><b>Doors</b><span>2</span></div><div><b>Fuel</b><span>Premium unleaded</span></div><div><b>Registration</b><span>DKW-202</span></div></div>
+      <div><span class="chip">Alloy wheels</span><span class="chip">Sunroof</span><span class="chip">Tinted glass</span><span class="chip">LED headlights</span><span class="chip">Foldable roof</span><span class="chip">Tow hitch</span></div>
+      <p class="note">The original listing's specification block describes a different car (a 1.8 TFSI, model i3). Confirm the real sheet before quoting this one.</p>
+      <form class="qform" onsubmit="return sendEnquiry(event, 'BMW 640 XI')">
+        <div class="row">
+          <div class="field"><label for="bmw-640-xi-gran-turismo-name">Your name</label><input id="bmw-640-xi-gran-turismo-name" name="name" required></div>
+          <div class="field"><label for="bmw-640-xi-gran-turismo-phone">Phone or WhatsApp</label><input id="bmw-640-xi-gran-turismo-phone" name="phone" required></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="bmw-640-xi-gran-turismo-country">Country and port</label><input id="bmw-640-xi-gran-turismo-country" name="country"></div>
+          <div class="field"><label for="bmw-640-xi-gran-turismo-msg">Message</label><input id="bmw-640-xi-gran-turismo-msg" name="message" placeholder="Budget, timing, questions"></div>
+        </div>
+        <div class="btn-row" style="margin-top:4px;">
+          <button class="btn btn-red" type="submit">Enquire about this car</button>
+          <a class="btn btn-teal wa" href="https://wa.me/819030629963" rel="noopener">WhatsApp</a>
+        </div>
+        <p class="hint status" role="status"></p>
+      </form>
+    </div>
+  </article>
+  <article class="lot" id="mercedes-benz-c300">
+    <div class="ph"><img src="https://mraikou.com/wp-content/uploads/2023/08/10-3.jpg" alt="Mercedes Benz C300" loading="lazy"></div>
+    <div class="bd">
+      <span class="lbl">Low miles</span>
+      <h3>Mercedes Benz C300</h3>
+      <p class="price">$54,300</p>
+      <div class="specgrid"><div><b>Year</b><span>2018</span></div><div><b>Mileage</b><span>25,000 miles</span></div><div><b>Body</b><span>Convertible</span></div><div><b>Drive</b><span>Front wheel drive</span></div><div><b>Engine</b><span>2.5 L turbo, 6 cylinder</span></div><div><b>Transmission</b><span>7-speed shiftable automatic</span></div><div><b>Registration</b><span>DKW-202</span></div></div>
+      <div><span class="chip">Convertible roof</span><span class="chip">Low mileage</span><span class="chip">Automatic</span></div>
+      <p class="note">The listing's specification block says 2022 and 29,590 km; its description says 2018 and 25,000 miles. The description is used here. Confirm which is correct.</p>
+      <form class="qform" onsubmit="return sendEnquiry(event, 'Mercedes Benz C300')">
+        <div class="row">
+          <div class="field"><label for="mercedes-benz-c300-name">Your name</label><input id="mercedes-benz-c300-name" name="name" required></div>
+          <div class="field"><label for="mercedes-benz-c300-phone">Phone or WhatsApp</label><input id="mercedes-benz-c300-phone" name="phone" required></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="mercedes-benz-c300-country">Country and port</label><input id="mercedes-benz-c300-country" name="country"></div>
+          <div class="field"><label for="mercedes-benz-c300-msg">Message</label><input id="mercedes-benz-c300-msg" name="message" placeholder="Budget, timing, questions"></div>
+        </div>
+        <div class="btn-row" style="margin-top:4px;">
+          <button class="btn btn-red" type="submit">Enquire about this car</button>
+          <a class="btn btn-teal wa" href="https://wa.me/819030629963" rel="noopener">WhatsApp</a>
+        </div>
+        <p class="hint status" role="status"></p>
+      </form>
+    </div>
+  </article>
+  <article class="lot" id="my-sample-listing">
+    <div class="ph"><img src="https://mraikou.com/wp-content/uploads/2023/08/11-2.jpg" alt="Mazda MX-5 Miata" loading="lazy"></div>
+    <div class="bd">
+      <span class="lbl">Low miles</span>
+      <h3>Mazda MX-5 Miata</h3>
+      <p class="price">$31,000</p>
+      <div class="specgrid"><div><b>Year</b><span>2019</span></div><div><b>Mileage</b><span>36,590 km</span></div><div><b>Transmission</b><span>Automatic</span></div><div><b>Drive</b><span>Front wheel drive</span></div><div><b>Engine</b><span>4 cylinder, 2.4 L</span></div><div><b>Seats</b><span>6</span></div><div><b>Doors</b><span>4</span></div><div><b>Fuel</b><span>Regular unleaded</span></div><div><b>Registration</b><span>DKW-202</span></div></div>
+      <div><span class="chip">Alloy wheels</span><span class="chip">Sunroof / moonroof</span><span class="chip">Tinted glass</span><span class="chip">LED headlights</span><span class="chip">Foldable roof</span><span class="chip">Tow hitch</span></div>
+      <p class="note">Listed under the title "my sample listing" on the original site, and the specification block contradicts an MX-5 (four doors, six seats). Replace with the real sheet.</p>
+      <form class="qform" onsubmit="return sendEnquiry(event, 'Mazda MX-5 Miata')">
+        <div class="row">
+          <div class="field"><label for="my-sample-listing-name">Your name</label><input id="my-sample-listing-name" name="name" required></div>
+          <div class="field"><label for="my-sample-listing-phone">Phone or WhatsApp</label><input id="my-sample-listing-phone" name="phone" required></div>
+        </div>
+        <div class="row">
+          <div class="field"><label for="my-sample-listing-country">Country and port</label><input id="my-sample-listing-country" name="country"></div>
+          <div class="field"><label for="my-sample-listing-msg">Message</label><input id="my-sample-listing-msg" name="message" placeholder="Budget, timing, questions"></div>
+        </div>
+        <div class="btn-row" style="margin-top:4px;">
+          <button class="btn btn-red" type="submit">Enquire about this car</button>
+          <a class="btn btn-teal wa" href="https://wa.me/819030629963" rel="noopener">WhatsApp</a>
+        </div>
+        <p class="hint status" role="status"></p>
+      </form>
+    </div>
+  </article>
+  </div>
+</section>
+
+<section class="sec white" id="not-listed">
+  <div class="wrap">
+    <div class="chap">
+      <div class="no">&mdash;</div>
+      <div><span class="lbl">Not listed</span><h2 style="font-size:1.6rem;">Looking for something else?</h2>
+      <p class="lede">Most stock is bought to order at auction, so the car you want may never appear on this page. Tell us the model, the year, the budget and the port, and we will quote what is available.</p></div>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-red" href="index.html#enquire">Send a requirement</a>
+      <a class="btn btn-dark" href="https://wa.me/819030629963" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="ftr">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><svg viewBox="0 0 48 48" aria-hidden="true">
+  <rect x="1" y="1" width="46" height="46" fill="#15110e"/>
+  <path d="M10 35V13h4l6 10 6-10h4v22h-4V20l-6 9-6-9v15z" fill="#faf7f1"/>
+  <circle cx="35" cy="33" r="4" fill="#dc4a25"/>
+</svg><span><b>M.RAIKOU</b><small>Japan approved</small></span></a>
+    <p style="margin-top:16px;max-width:40ch;font-size:.94rem;">An approved sending organisation, a language school and a trading house. Documented work, done the lawful way, since the agricultural machinery years.</p>
+    <div class="ftr-grid">
+      <div><h4>Sections</h4><ul><li><a href="../index.html#work">Work in Japan</a></li><li><a href="../index.html#language">Language & STBJ</a></li><li><a href="index.html">Cars &amp; parts</a></li><li><a href="inventory.html">Inventory</a></li><li><a href="../index.html#trading">Trading</a></li><li><a href="../index.html#approvals">Approvals</a></li><li><a href="../websites.html">Websites</a></li></ul></div>
+      <div><h4>Pakistan</h4><ul><li><a href="tel:+923298352736">+92 329 8352736</a></li><li>Lahore &amp; Gujranwala schools</li><li>LEEPA Manpower, Rawalpindi</li></ul></div>
+      <div><h4>Japan &amp; channels</h4><ul><li><a href="https://wa.me/819030629963" rel="noopener">+81 90 3062 9963 (WhatsApp)</a></li><li><a href="mailto:imraa@mraikou.com">imraa@mraikou.com</a></li><li><a href="https://www.youtube.com/channel/UC4S7qxW8oTvshW5v4SfD02A" rel="noopener" target="_blank">YouTube</a></li><li><a href="https://www.facebook.com/M.RaikouOfficial/" rel="noopener" target="_blank">Facebook</a></li><li><a href="https://www.instagram.com/m.raikouofficial/" rel="noopener" target="_blank">Instagram</a></li><li><a href="https://www.tiktok.com/@m.raikou.llc" rel="noopener" target="_blank">TikTok</a></li></ul></div>
+    </div>
+    <div class="ftr-b">
+      <span>&copy; 2026 M.RAIKOU. Demonstration site prepared for review.</span>
+      <span class="langline">English &middot; اردو &middot; 日本語 &middot; العربية</span>
+    </div>
+  </div>
+</footer>
+<div class="mbar"><a href="index.html#enquire">Enquire</a><a href="https://wa.me/819030629963" rel="noopener">WhatsApp</a></div>
+<script>
+(function () {
+  var b = document.querySelector(".burger"), n = document.querySelector(".nav");
+  if (b && n) b.addEventListener("click", function () {
+    n.classList.toggle("open");
+    b.setAttribute("aria-expanded", n.classList.contains("open") ? "true" : "false");
+  });
+})();
+
+// No server here, so each form composes a message naming its own car and the visitor sends it from
+// their own phone. That works from a file with no network as well as on the host.
+function sendEnquiry(event, car) {
+  event.preventDefault();
+  var f = event.target;
+  var v = function (n) { return f.elements[n] ? String(f.elements[n].value).trim() : ""; };
+  var lines = [
+    "Car enquiry through M.RAIKOU",
+    "Vehicle: " + car,
+    "Name: " + v("name"),
+    "Phone or WhatsApp: " + v("phone"),
+    "Country and port: " + (v("country") || "not given"),
+    "Message: " + (v("message") || "none")
+  ];
+  var text = lines.join("\n");
+  var wa = f.querySelector(".wa");
+  if (wa) wa.href = "https://wa.me/819030629963?text=" + encodeURIComponent(text);
+  window.location.href = "mailto:imraa@mraikou.com?subject=" + encodeURIComponent("Car enquiry: " + car) + "&body=" + encodeURIComponent(text);
+  var status = f.querySelector(".status");
+  if (status) status.textContent = "Your mail programme should open with the details filled in. If it does not, use the WhatsApp button.";
+  return false;
+}
+</script>
+</body>
+</html>

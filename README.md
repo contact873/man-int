@@ -1,4 +1,4 @@
-# M.RAIKOU website: the site before the proposal
+# M.RAIKOU website: the full site, after the proposal
 
 A static site. No build step, no framework, no server. Every page is hand-written or generated HTML and
 one stylesheet.
@@ -17,10 +17,11 @@ one stylesheet.
 - `ur.html` — Urdu
 - `ja.html` — Japanese
 - `ar.html` — Arabic
-- `websites.html`, `websites-ja.html` — the website-building page for M.RAIKOU's clients
+- `websites.html`, `websites-ja.html` — the website-building page for M.RAIKOU's clients\n- `cars-auto-parts/` — the car export page and the inventory
 - `assets/style.css` — the single stylesheet for every page
 
-- `cars-auto-parts/` is **not** in this bundle; the car pages come with the proposal.
+- `cars-auto-parts/index.html` — the car export page
+- `cars-auto-parts/inventory.html` — every car, with photographs and its own enquiry form
 
 ## Two things to know
 
@@ -29,4 +30,5 @@ one stylesheet.
   instead.
 - **The forms have no server.** Each one composes an email or a WhatsApp message from the visitor's own
   phone, which is why they work on a host with no backend.
+- **The inventory photographs load from `https://mraikou.com/wp-content/`.** They need network access, and that WordPress install to stay online. Copy them into `assets/img/` before the old site is retired.
 
